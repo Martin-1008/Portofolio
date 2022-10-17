@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--bluePrimary);
+    padding: 10px;
+    color: var(--creamPrimary);
+    position: fixed;
+    width: 100%;
+}
+
+.navigationLeft{
+    display: flex;
+    flex-direction: row;
+}
+
+.navigationLogo{
+    font-size: 40px;
+    
+}
+
+.navigationButton{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
