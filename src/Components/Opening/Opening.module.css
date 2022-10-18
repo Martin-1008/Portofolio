@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.opening{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.openingText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.openingIntroduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.firstIntroduction{
+    color: var(--blueSecondary);
+    font-size: 35px;
+}
+
+.secondIntroduction{
+    color: var(--bluePrimary);
+    font-size: 100px;
+    padding: 5px 40px;
+}
+
+.secondIntroductionFirstWord{
+
+}
+
+.secondIntroductionSecondWord{
+    color: var(--blueSecondary);
+}
+
+.openingImage{
+    background-color: var(--blueSecondary);
+    width: fit-content;
+    padding: 15px;
+    width: 30%;
+}
+
+.openingImage img{
+    width: 100%;
+}
+
+.openingButton{
+    background-color: var(--blueSecondary);
+    color: var(--creamPrimary);
+    width: fit-content;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid var(--blueSecondary);
+}
+
+.openingButton:hover{
+    background-color: var(--creamSecondary);
+    color: var(--blueSecondary);
+}

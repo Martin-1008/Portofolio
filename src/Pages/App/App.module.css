@@ -5,4 +5,22 @@
 
 .container{
     background-color: var(--creamSecondary);
+
+}
+
+.navigation{
+    position: fixed;
+}
+
+.navigationFill{
+    height: 70px;
+}
+
+.opening{
+    background-color: var(--creamSecondary);
+    margin: 100px 20px;
+}
+
+.aboutMe{
+    margin: 300px 20px;
 }

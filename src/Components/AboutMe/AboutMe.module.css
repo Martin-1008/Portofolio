@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.aboutMe{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutMeImage{
+    background-color: var(--blueSecondary);
+    width: fit-content;
+    padding: 15px;
+}
+
+.aboutMeImage img{
+    width: 300px;
+}
+
+.aboutMeText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+
+.aboutMeTitle{
+    color: var(--bluePrimary);
+    font-size: 50px;
+    margin: 0 0 0 40px;
+}
+
+.aboutMeContent{
+    padding: 10px 0;
+    color: var(--blueSecondary);
+    font-size: 20px;
+}
