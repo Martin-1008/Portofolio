@@ -4,7 +4,7 @@ import React, {Fragment} from "react";
 import NavigationBar from "../../Components/NavigationBar/NavigationBar"
 import Opening from "../../Components/Opening/Opening"
 import AboutMe from "../../Components/AboutMe/AboutMe"
-
+import Portofolio from "../../Components/Portofolio/Portofolio"
 
 const App = ()=> {
 
@@ -25,6 +25,15 @@ const App = ()=> {
 
         <div className={classes.aboutMe}>
           <AboutMe/>
+        </div>
+
+        <div className={classes.portofolio}>
+          <div className={classes.portofoliioTitle}>
+            <span>
+              Portofolio
+            </span>
+          </div>
+          <Portofolio/>
         </div>
       </div>
 

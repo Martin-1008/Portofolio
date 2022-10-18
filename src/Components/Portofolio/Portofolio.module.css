@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.portofolio{
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerTitle{
+    background-color: var(--bluePrimary);
+    width: 100%;
+    color: var(--creamSecondary);
+    padding: 30px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.containerContent{
+    width: 100%;
+    background-color: var(--blueSecondary);
+    width: 100%;
+    color: var(--creamSecondary);
+}

@@ -9,33 +9,40 @@
     padding: 0 50px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .aboutMeImage{
     background-color: var(--blueSecondary);
     width: fit-content;
     padding: 15px;
+    width: 30%;
 }
 
 .aboutMeImage img{
-    width: 300px;
+    width: 100%;
 }
 
 .aboutMeText{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 40px;
+    padding: 20px;
+    width: 60%;
 }
 
 .aboutMeTitle{
     color: var(--bluePrimary);
-    font-size: 50px;
-    margin: 0 0 0 40px;
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .aboutMeContent{
     padding: 10px 0;
     color: var(--blueSecondary);
     font-size: 20px;
+    display: flex;
+    text-align: end;
 }
