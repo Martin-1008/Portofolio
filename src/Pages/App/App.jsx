@@ -1,10 +1,11 @@
 
 import classes from "./App.module.css";
 import React, {Fragment} from "react";
-import NavigationBar from "../../Components/NavigationBar/NavigationBar"
+import NavigationBar from "../../Components/Header/NavigationBar"
 import Opening from "../../Components/Opening/Opening"
 import AboutMe from "../../Components/AboutMe/AboutMe"
-import Portofolio from "../../Components/Portofolio/Portofolio"
+import PortofolioList from "../../Components/Portofolio/PortofolioList"
+import Footer from "../../Components/Footer/Footer"
 
 const App = ()=> {
 
@@ -28,13 +29,16 @@ const App = ()=> {
         </div>
 
         <div className={classes.portofolio}>
-          <div className={classes.portofoliioTitle}>
+          <div className={classes.portofolioTitle}>
             <span>
               Portofolio
             </span>
           </div>
-          <Portofolio/>
+          <PortofolioList/>
         </div>
+      </div>
+      <div className={classes.footer}>
+          <Footer/>
       </div>
 
 

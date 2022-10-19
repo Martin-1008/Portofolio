@@ -16,6 +16,11 @@
     height: 70px;
 }
 
+.section{
+    max-width: 1300px;
+    margin: auto;
+}
+
 .opening{
     background-color: var(--creamSecondary);
     margin: 100px 20px;
@@ -26,5 +31,17 @@
 }
 
 .portofolio{
-    margin: 300px 20px;
+}
+
+.portofolioTitle{
+    display: flex;
+    justify-content: center;
+    color: var(--bluePrimary);
+    font-size: 70px;
+    font-weight: bold;
+    padding: 0 0 20px;
+}
+
+.footer{
+    margin: 100px 0 0;
 }
