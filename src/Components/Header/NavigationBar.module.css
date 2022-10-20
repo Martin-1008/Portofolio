@@ -39,7 +39,16 @@
     padding: 10px 20px;
 }
 
+.navigationButton a{
+    color: var(--creamPrimary);
+    text-decoration: none;
+}
+
 .navigationButton:hover{
     background-color: var(--creamPrimary);
+    color: var(--bluePrimary);
+}
+
+.navigationButton:hover a{
     color: var(--bluePrimary);
 }

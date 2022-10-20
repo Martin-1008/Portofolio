@@ -22,11 +22,11 @@ const NavigationBar = () =>{
                         </div>
                         <div className={classes.navigationButton}>
                             {/* <Link>RESUME</Link> */}
-                            <a>RESUME</a>
+                            <a href="https://bit.ly/3CO0th6" target="_blank">RESUME</a>
                         </div>
                         <div className={classes.navigationButton}>
                             {/* <Link>CONTACT</Link> */}
-                            <a>CONTACT</a>
+                            <a href="https://api.whatsapp.com/send?phone=089693969044" target="_blank">CONTACT</a>
                         </div>
                     </div>
                 </div>

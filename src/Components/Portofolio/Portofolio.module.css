@@ -14,20 +14,22 @@
     background:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url('/public/Travelist/loginPage.png');
     color: var(--creamSecondary);
     width: 100%;
-    padding: 30px 0;
+    padding: 40px 0;
     font-size: 35px;
     display: flex;
     justify-content: center;
+    font-weight: bold;
 }
 
 .laforant{
     background:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url('/public/Laforant/agentPage.png');
     color: var(--creamSecondary);
     width: 100%;
-    padding: 30px 0;
+    padding: 40px 0;
     font-size: 35px;
     display: flex;
     justify-content: center;
+    font-weight: bold;
 }
 
 
