@@ -1,6 +1,7 @@
 import React from "react";
 import PortofolioData from "./PortofolioData"
 import Portofolio from "./Portofolio";
+import classes from "./PortofolioList.module.css"
 
 
 const PortofolioList = ()=>{
@@ -11,7 +12,7 @@ const PortofolioList = ()=>{
     }
 
     return(
-        <div>
+        <div className={classes.portofolioList}>
             {listItem}
         </div>
     )

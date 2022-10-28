@@ -21,16 +21,124 @@
     margin: auto;
 }
 
-.opening{
+.openingSection{
     background-color: var(--creamSecondary);
     margin: 100px 20px;
 }
 
-.aboutMe{
+.opening{
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.openingText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.openingIntroduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.firstIntroduction{
+    color: var(--blueSecondary);
+    font-size: 50px;
+}
+
+.secondIntroduction{
+    color: var(--bluePrimary);
+    font-weight: bold;
+    font-size: 150px;
+    padding: 5px 40px;
+}
+
+.secondIntroductionSecondWord{
+    color: var(--blueSecondary);
+}
+
+.openingImage{
+    background-color: var(--blueSecondary);
+    width: fit-content;
+    padding: 15px;
+    width: 30%;
+}
+
+.openingImage img{
+    width: 100%;
+}
+
+.openingButton{
+    background-color: var(--blueSecondary);
+    color: var(--creamPrimary);
+    width: fit-content;
+    padding: 15px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid var(--blueSecondary);
+}
+
+.openingButton:hover{
+    background-color: var(--creamSecondary);
+    color: var(--blueSecondary);
+}
+
+.aboutMeSection{
     margin: 300px 20px;
+    scroll-margin: 120px;
+}
+
+.aboutMe{
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aboutMeImage{
+    background-color: var(--blueSecondary);
+    width: fit-content;
+    padding: 15px;
+    width: 30%;
+}
+
+.aboutMeImage img{
+    width: 100%;
+}
+
+.aboutMeText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 60%;
+}
+
+.aboutMeTitle{
+    color: var(--bluePrimary);
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.aboutMeContent{
+    padding: 10px 0;
+    color: var(--blueSecondary);
+    font-size: 20px;
+    display: flex;
+    text-align: end;
 }
 
 .portofolio{
+    padding: 0 100px;
 }
 
 .portofolioTitle{
@@ -44,4 +152,81 @@
 
 .footer{
     margin: 100px 0 0;
+}
+
+@media screen and (max-width: 1000px){
+    .firstIntroduction{
+        font-size: 30px;
+    }
+
+    .secondIntroduction{
+        font-size: 110px;
+    }
+
+    .aboutMeTitle{
+        font-size: 50px;
+    }
+
+    .portofolioTitle{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .opening{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .openingImage{
+        margin-top: 50px;
+        width: 50%;
+
+    }
+
+    .aboutMe{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .aboutMeImage{
+        margin-top: 50px;
+        width: 400px;
+    }
+
+    .aboutMeText{
+        width: 80%;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .aboutMeTitle{
+        justify-content: center;
+    }
+
+    .aboutMeContent{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .opening{
+        padding: 0;
+    }
+
+    .aboutMe{
+        padding: 0;
+    }
+
+    .aboutMeImage{
+        width: 80%;
+    }
+
+    .portofolio{
+        padding: 0;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
 }

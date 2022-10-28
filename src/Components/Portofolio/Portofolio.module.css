@@ -7,7 +7,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 100px;
 }
 
 .travelist{
@@ -60,7 +59,7 @@
 .portofolioContent{
     display: flex;
     text-align: center;
-    padding: 40px 40px;
+    padding: 40px;
 }
 
 .portofolioImageStructure{
@@ -71,4 +70,33 @@
 .portofolioImageStructure img{
     padding: 10px;
     width: 40%;
+}
+
+@media screen and (max-width: 1000px){
+    .travelist{
+        font-size: 30px;
+    }
+
+    .laforant{
+        font-size: 30px;
+    }
+
+    .portofolioImageStructure{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portofolioImageStructure img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .portofolioContent{
+        padding: 20px;
+    }
+
+    .containerContent{
+        padding: 20px;
+    }
 }
