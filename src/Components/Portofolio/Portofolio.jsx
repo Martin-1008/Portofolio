@@ -1,16 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 import classes from "./Portofolio.module.css";
 
 const Portofolio = (props)=>{
 
     const{item} = props;
+    const[isVisible, setIsVisible] = useState(false);
+
+    const descriptionHandler =(event)=>{
+        setIsVisible(current=> !current);
+    }
     return (
         <>
             <div className={classes.portofolio}>
-                    <div className={item.title === "TRAVELIST"? classes.travelist:classes.laforant} >
+                    <div className={item.title === "TRAVELIST"? classes.travelist:classes.laforant} onClick={descriptionHandler}>
                         {item.title}
                     </div>
-                    <div className={classes.containerContent}>
+                    <div className={isVisible?classes.containerContent:classes.invalidContainerContent}>
                         <div className={classes.portofolioDescription}>
                             <span>
                                 Description

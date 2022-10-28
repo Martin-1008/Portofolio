@@ -1,6 +1,6 @@
 
 import classes from "./App.module.css";
-import React, {Fragment} from "react";
+import React from "react";
 import NavigationBar from "../../Components/Header/NavigationBar"
 import Opening from "../../Components/Opening/Opening"
 import AboutMe from "../../Components/AboutMe/AboutMe"

@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Opening.module.css"
 import profilePicture from "../../Assets/ProfilePicture/Profile.jpg"
+import AboutMe from "../AboutMe/AboutMe"
 
 const Opening = () =>{
      
@@ -24,10 +25,10 @@ const Opening = () =>{
                         </div>
                     </div>
                     <div className={classes.openingButton}>
-
-                        <a className={classes.buttonContent}>
+                        <a>
                             Know more about me
                         </a>
+
                     </div>
                 </div>
                 <div className={classes.openingImage}>
